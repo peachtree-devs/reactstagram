@@ -1,0 +1,52 @@
+.feed {
+  margin-bottom: 5px;
+
+  .post-header,
+  .post-content {
+    display: flex;
+  }
+
+  .post-header {
+    padding: 0.5em;
+    align-items: center;
+
+    img {
+      border-radius: 99px;
+      width: 10%;
+    }
+    .userName {
+      font-size: 0.9rem;
+      top: 20px;
+      padding-left: 5px;
+      font-weight: bold;
+      margin-left: 0.5em;
+    }
+  }
+
+  .post-content {
+    height: 330px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .post-stats {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 0.85rem;
+
+    .hearts, 
+    .likes,
+    .caption {
+      margin-bottom: 10px;
+    }
+
+    .hearts {
+      i:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

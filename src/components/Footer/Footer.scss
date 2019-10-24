@@ -1,8 +1,28 @@
 .footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   border-top: 1px solid;
   height: 40px;
   width: 100%;
   border-top: 1px solid #eeeeee;
+  z-index: 99;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .home,
+  .upload {
+    i:hover {
+      cursor: pointer;
+    }
+  }
+
+  .home {
+    margin-left: 10px;
+  }
+
+  .upload {
+    margin-right: 10px;
+  }
 }

@@ -3,13 +3,16 @@ body {
   padding: 2em 0;
   height: 100%;
   margin: 0;
+  color: #4a4a4a;
   font-family: "Roboto", sans-serif;
 
   .App-Phone {
-    width: 25em;
+    width: 22em;
     margin: 0 auto;
     position: relative;
-    height: 35em;
+    height: 38em;
+    overflow-x: hidden;
+    overflow-y: scroll;
     background-color: #fff;
   }
 }

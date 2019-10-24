@@ -6,10 +6,10 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <div className="home">
-          <i class="fas fa-home fa-lg"></i>
+          <i className="fas fa-home fa-lg"></i>
         </div>
         <div className="upload">
-          <i class="far fa-plus-square fa-lg"></i>
+          <i className="far fa-plus-square fa-lg"></i>
         </div>
       </div>
     )

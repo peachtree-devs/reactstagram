@@ -20,7 +20,7 @@ export default class Feed extends Component {
         {/* User Content */}
         <div className="post-stats">
           <div className="hearts">
-            <i class="far fa-heart fa-lg"></i>
+            <i className="far fa-heart fa-lg"></i>
           </div>
           <div className="likes">
             <span>{this.props.post.likes} Likes</span>
